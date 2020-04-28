@@ -15,6 +15,9 @@ public class Triangle {
         catch (isNotTriangleException e){
             System.out.println("Note : "+ e);
         }
+        catch (Exception e){
+            System.out.println("He he he");
+        }
 
     }
     static class isNotTriangleException extends Exception{
